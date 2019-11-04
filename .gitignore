@@ -1,0 +1,3 @@
+# ignore seismic data
+*.segy
+*.sgy 
