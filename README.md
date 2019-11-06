@@ -8,5 +8,7 @@ The seismic data used in this exercise is from the Kerry 3D data set (1 GB) offs
 ## Fault segmentation picking and annotation
 A series of image tiles are generated from this volume and exported to be used in Microsoft's Visual Object Tagging Tool, https://github.com/microsoft/VoTT. 
 
+![VoTT picking example](https://raw.githubusercontent.com//EvanBianco/seismic_fault_segmentation/blob/master/images/VoTT_seismic_fault_pick.PNG)
+
 ## Model generation
 After using VoTT to manually pick and tag fault regions within the images, one of the options to export the regions for is a JSON formatted file. The notebook entiteled `Fault_Polygon_masks.ipynb` takes this JSON file as input, and then creates PNG images of the polygons using masks. These fault mask images match the corresponding seismic data images so they can be inserted into a neural network architecture.
