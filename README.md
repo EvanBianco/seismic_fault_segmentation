@@ -12,3 +12,8 @@ A series of image tiles are generated from this volume and exported to be used i
 
 ## Model generation
 After using VoTT to manually pick and tag fault regions within the images, one of the options to export the regions for is a JSON formatted file. The notebook entiteled `Fault_Polygon_masks.ipynb` takes this JSON file as input, and then creates PNG images of the polygons using masks. These fault mask images match the corresponding seismic data images so they can be inserted into a neural network architecture.
+
+## Training data
+
+206 seismic data and fault model pairs have been provided in the following Google Drive folder: [fault_train2](https://drive.google.com/open?id=1RjspGTQWMJB3W0JzJtdCpdbnEyvuIV4H). It is left up to the user to create train / test / validation subsets from this batch of 206 interpretations.
+
