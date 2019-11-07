@@ -15,5 +15,5 @@ After using VoTT to manually pick and tag fault regions within the images, one o
 
 ## Training data
 
-206 seismic data and fault model pairs have been provided in the following Google Drive folder: [fault_train2](https://drive.google.com/open?id=1RjspGTQWMJB3W0JzJtdCpdbnEyvuIV4H). It is left up to the user to create train / test / validation subsets from this batch of 206 interpretations.
+206 seismic data and fault model pairs have been provided in the following Google Drive folder: [fault_train2](https://drive.google.com/drive/folders/1RjspGTQWMJB3W0JzJtdCpdbnEyvuIV4H?usp=sharing). It is left up to the user to create train / test / validation subsets from this batch of 206 interpretations.
 
